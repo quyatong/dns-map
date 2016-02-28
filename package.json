@@ -1,35 +1,38 @@
 {
-  "name": "rainbow-dns",
-  "version": "3.0.1",
-  "description": "DNS server with http API",
-  "bin": "./index.js",
+  "name": "dns-map",
+  "version": "0.0.1",
+  "description": "dns map",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R nyan -w --check-leaks"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dns-map": "./bin/cli"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/asbjornenge/rainbow-dns.git"
+    "url": "git+https://github.com/quyatong/dns-map.git"
   },
   "keywords": [
     "dns",
-    "server",
-    "api"
+    "map"
   ],
-  "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
-  "license": "BSD",
+  "author": "quyatong",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/asbjornenge/rainbow-dns/issues"
+    "url": "https://github.com/quyatong/dns-map/issues"
   },
-  "homepage": "https://github.com/asbjornenge/rainbow-dns",
+  "homepage": "https://github.com/quyatong/dns-map#readme",
   "dependencies": {
-    "ansi-rainbow": "0.0.8",
     "chalk": "^1.0.0",
-    "hapi": "^6.8.1",
-    "minimist": "^1.1.0",
+    "commander": "^2.9.0",
+    "date-format": "0.0.2",
+    "lodash": "^4.5.1",
+    "my-ip": "^1.1.1",
     "native-dns": "^0.6.1",
     "native-dns-packet": "^0.1.1",
-    "random-domain": "^1.0.2",
-    "transducers.js": "^0.2.1"
+    "reverse-proxy": "^0.3.0",
+    "transducers.js": "^0.2.1",
+    "uri-js": "^2.1.1"
   }
 }

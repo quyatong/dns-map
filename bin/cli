@@ -1,0 +1,11 @@
+#! /usr/bin/env node
+
+var program = require('commander');
+var main = require('../index');
+
+program
+    .option('-c, --config [path]', '文件配置')
+    .option('-d, --domain [domain name]', 'domain')
+    .parse(process.argv);
+
+main.enter(program);
