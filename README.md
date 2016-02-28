@@ -10,6 +10,8 @@
 
 ## Example
 
+`config.json`
+
     {
         "records": [
             {
