@@ -12,16 +12,14 @@ var Config = require('./lib/Config');
  * @type {Object}
  */
 var options = {
-    apihost: '127.0.0.1',
-    apiport: 8080,
 
     dnsHost: myIp(),
     dnsPort: 53,
 
-    domain: 'didialift.com',
+    domain: '',
     ttl: 10000,
 
-    forwardHost: '8.8.8.8',
+    forwardHost: '114.114.114.114',
     forwardPort: 53
 };
 
