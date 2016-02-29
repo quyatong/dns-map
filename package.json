@@ -1,6 +1,6 @@
 {
   "name": "dns-map",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "dns map",
   "main": "index.js",
   "scripts": {
